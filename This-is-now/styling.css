@@ -1,0 +1,122 @@
+#Title {
+  font-size: 150px;
+  text-transform: uppercase;
+  Position: relative;
+}
+
+#Is {
+  font size: 150px;
+  text-transform: uppercase;
+  Position: relative;
+  color: red;
+  left: -173px;
+}
+
+#Now {
+  font size: 150px;
+  text-transform: uppercase;
+  Position: relative;
+  color: red;
+}
+
+.Sub {
+  font-size: 50px;
+  text-transform: uppercase;
+  position: relative;
+  top: -330px;
+  Position: relative;
+  right: -380px;
+}
+
+.Sub2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  Position: relative;
+  top: -290px;
+}
+
+.h1 {
+  font-size: 35px;
+  color: red;
+  word-spacing: 5px;
+  position: relative;
+  top: -275px;
+  right: -26px;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  position: relative;
+  right: -215px;
+  top: -355px;
+}
+
+.p {
+  font-size: 17px;
+  word-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  right: -215px;
+  top: -355px;
+}
+
+#End {
+  font-size: 14px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text {
+  color: gray;
+  position: relative;
+  right: -215px;
+  top: -335px;
+}
+
+.SubTitle {
+  font-size: 20px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  Line-height: 0.4in;
+}
+
+.p2 {
+  font-size: 30px;
+  word-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  right: -205px;
+  top: -340px;
+}
+
+.Extras {
+  position: relative;
+  right: -200px;
+  top: -345px;
+  color: red;
+  Font-size: 40px;
+  text-transform: uppercase;
+}
+
+.Extras2 {
+  position: relative;
+  right: -200px;
+  top: -240px;
+  color: red;
+  Font-size: 40px;
+  text-transform: uppercase;
+}
