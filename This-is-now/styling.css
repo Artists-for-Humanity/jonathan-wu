@@ -2,20 +2,18 @@
   font-size: 150px;
   text-transform: uppercase;
   Position: relative;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-right: 50px;
 }
 
 #Is {
-  font size: 150px;
-  text-transform: uppercase;
-  Position: relative;
+  position: absolute;
+  left: 221px;
   color: red;
-  left: -173px;
 }
 
 #Now {
-  font size: 150px;
-  text-transform: uppercase;
-  Position: relative;
   color: red;
 }
 
@@ -23,9 +21,9 @@
   font-size: 50px;
   text-transform: uppercase;
   position: relative;
-  top: -330px;
   Position: relative;
-  right: -380px;
+  margin-top: 10px;
+  margin-bottom: 1px;
 }
 
 .Sub2 {
@@ -34,7 +32,8 @@
   background-color: black;
   color: white;
   Position: relative;
-  top: -290px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .h1 {
@@ -42,8 +41,10 @@
   color: red;
   word-spacing: 5px;
   position: relative;
-  top: -275px;
   right: -26px;
+  margin-top: 25px;
+  margin-bottom: 1px;
+  margin-right: -100px;
   text-transform: uppercase;
 }
 
@@ -52,7 +53,7 @@
   text-transform: uppercase;
   position: relative;
   right: -215px;
-  top: -355px;
+  margin-top: 10px;
 }
 
 .p {
@@ -62,7 +63,7 @@
   font-weight: bold;
   position: relative;
   right: -215px;
-  top: -355px;
+  margin-top: 15px;
 }
 
 #End {
@@ -119,4 +120,9 @@ h3 {
   color: red;
   Font-size: 40px;
   text-transform: uppercase;
+}
+
+.TitleWrapper {
+  display: flex;
+  align-items: flex-end;
 }
