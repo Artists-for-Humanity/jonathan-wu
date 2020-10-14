@@ -1,29 +1,28 @@
 #Title {
   font-size: 150px;
   text-transform: uppercase;
-  Position: relative;
-  margin-top: 10px;
-  margin-bottom: 1px;
-  margin-right: 50px;
+  margin-top: 30px;
 }
 
 #Is {
   position: absolute;
-  left: 221px;
+  left: 230px;
   color: red;
 }
 
 #Now {
   color: red;
+  Position: absolute;
+  bottom: 190px;
+  left: 10px;
 }
 
 .Sub {
   font-size: 50px;
   text-transform: uppercase;
-  position: relative;
-  Position: relative;
-  margin-top: 10px;
-  margin-bottom: 1px;
+  position: absolute;
+  left: 390px;
+  bottom: 170px;
 }
 
 .Sub2 {
@@ -31,29 +30,20 @@
   text-transform: uppercase;
   background-color: black;
   color: white;
-  Position: relative;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .h1 {
   font-size: 35px;
   color: red;
   word-spacing: 5px;
-  position: relative;
-  right: -26px;
-  margin-top: 25px;
-  margin-bottom: 1px;
-  margin-right: -100px;
   text-transform: uppercase;
+  margin-right: 40px;
 }
 
 .h2 {
   font-size: 35px;
   text-transform: uppercase;
-  position: relative;
-  right: -215px;
-  margin-top: 10px;
 }
 
 .p {
@@ -61,9 +51,6 @@
   word-spacing: 7px;
   text-transform: uppercase;
   font-weight: bold;
-  position: relative;
-  right: -215px;
-  margin-top: 15px;
 }
 
 #End {
@@ -82,8 +69,7 @@ h3 {
 .text {
   color: gray;
   position: relative;
-  right: -215px;
-  top: -335px;
+  right: -210px;
 }
 
 .SubTitle {
@@ -99,15 +85,10 @@ h3 {
   word-spacing: 7px;
   text-transform: uppercase;
   font-weight: bold;
-  position: relative;
-  right: -205px;
-  top: -340px;
 }
 
 .Extras {
   position: relative;
-  right: -200px;
-  top: -345px;
   color: red;
   Font-size: 40px;
   text-transform: uppercase;
@@ -115,9 +96,6 @@ h3 {
 
 .Extras2 {
   position: relative;
-  right: -200px;
-  top: -240px;
-  color: red;
   Font-size: 40px;
   text-transform: uppercase;
 }
@@ -125,4 +103,9 @@ h3 {
 .TitleWrapper {
   display: flex;
   align-items: flex-end;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
