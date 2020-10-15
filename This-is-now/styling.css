@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -32,6 +37,7 @@ body {
   color: white;
   margin-top: 10px;
   length: 220px;
+  margin-bottom: 40px;
 }
 
 .h1 {
@@ -99,7 +105,7 @@ h3 {
 .row {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  margin-bottom: 80px;
 }
 
 #Images {
