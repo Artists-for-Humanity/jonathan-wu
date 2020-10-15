@@ -1,28 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
 #Title {
   font-size: 150px;
   text-transform: uppercase;
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 #Is {
   position: absolute;
-  left: 230px;
+  left: 220px;
   color: red;
 }
 
 #Now {
   color: red;
-  Position: absolute;
-  bottom: 190px;
-  left: 10px;
 }
 
 .Sub {
   font-size: 50px;
   text-transform: uppercase;
-  position: absolute;
-  left: 390px;
-  bottom: 170px;
+  margin-bottom: 0px;
 }
 
 .Sub2 {
@@ -31,6 +31,7 @@
   background-color: black;
   color: white;
   margin-top: 10px;
+  length: 220px;
 }
 
 .h1 {
@@ -38,7 +39,6 @@
   color: red;
   word-spacing: 5px;
   text-transform: uppercase;
-  margin-right: 40px;
 }
 
 .h2 {
@@ -68,8 +68,6 @@ h3 {
 
 .text {
   color: gray;
-  position: relative;
-  right: -210px;
 }
 
 .SubTitle {
@@ -88,14 +86,7 @@ h3 {
 }
 
 .Extras {
-  position: relative;
   color: red;
-  Font-size: 40px;
-  text-transform: uppercase;
-}
-
-.Extras2 {
-  position: relative;
   Font-size: 40px;
   text-transform: uppercase;
 }
@@ -108,4 +99,17 @@ h3 {
 .row {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+#Images {
+  width: 55px;
+  height: 55px;
+}
+
+.leftside {
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
 }
