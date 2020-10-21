@@ -16,7 +16,7 @@ body {
 
 #Is {
   position: absolute;
-  left: 220px;
+  left: 210px;
   color: red;
 }
 
@@ -27,7 +27,8 @@ body {
 .Sub {
   font-size: 50px;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .Sub2 {
