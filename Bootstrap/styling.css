@@ -1,0 +1,19 @@
+.top-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: purple;
+  height: 300px;
+  margin: 20px;
+}
+
+.top-edits {
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
